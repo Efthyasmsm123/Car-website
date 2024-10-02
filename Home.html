@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style> 
+  body { 
+  margin: 0; 
+  padding: 0; 
+} 
+.navbar { 
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px; 
+  z-index: 1; 
+
+} 
+.navbar-brand { 
+  font-size: 35px; 
+  font-weight: bold; 
+  display: flex; 
+  align-items: center; 
+  color: #5c5470; 
+} 
+  .navbar-nav { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+  } 
+  .navbar-nav li { 
+    margin: 0 10px; 
+  } 
+  .navbar ul { 
+    list-style-type: none; 
+    margin: 10; 
+    padding: 10; 
+    display: flex; 
+    justify-content: right; 
+    font-weight: bold; 
+    } 
+    .navbar li { 
+      margin: 0 25px; 
+    } 
+  .navbar-nav a { 
+    text-decoration: none; 
+    color: #5c5470; 
+  } 
+.navbar-nav a:hover, 
+.navbar-nav a.active { 
+  background-color: white; 
+  box-shadow: white; 
+} 
+.image-container { 
+  width: 100%;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden; 
+} 
+.image-container img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+} 
+.footer-bottom { 
+  background-color: #ffaaa5; 
+  padding: 15px 0; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 14px; 
+  border-radius: 10px; 
+ } 
+  .footer-bottom p { 
+  margin: 0; 
+} 
+.footer-bottom-links ul { 
+  list-style-type: none; 
+  padding: 0; 
+  display: flex; 
+} 
+.footer-bottom-links ul li { 
+  margin-right: 20px; 
+} 
+.footer-bottom-links ul li a { 
+  color: white; 
+  text-decoration: none; 
+} 
+.footer-bottom-links ul li a:hover { 
+color: white; 
+} 
+.social-icon { 
+  display: inline-block; 
+  margin-right: 10px; 
+  transition: opacity 0.3s ease; 
+} 
+.social-icon:hover { 
+  opacity: 0.7; 
+}  
+.social-icon img { 
+  width: 20px; 
+  height: 20px; 
+} 
+</style>
+</head>
+<body>
+  <div class="navbar"> 
+    <div class="navbar-brand"> 
+      <i>Cadillac</i> 
+    </div> 
+    <ul class="navbar-nav"> 
+      <li><a href="Home.html"><i>Home</i></a></li> 
+      <li><a href="Models.html"><i>Models</i></a></li> 
+      <li><a href="Services.html"><i>Services</i></a></li> 
+      <li><a href="About us.html"><i>About us</i></a></li> 
+      <li><a href="Contact us.html"><i>Contact us</i></a></li> </ul> 
+    </div> 
+
+    <div class="image-container" style="position: relative;"> 
+      <img src="cadillac-opulent-velocity-lead.jpg" alt="img" style=" border: 2px solid white;"> <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;"><p><i> Cadillac is a luxury vehicle brand that has been a symbol of American automotive excellence for over a century. Founded in 1902 in Detroit, Michigan, Cadillac has a rich history of producing some of the most prestigious and innovative cars in the world.</i></p>
+      </div> 
+    </div>
+  <footer>
+    <div class="footer-content">
+    </div>
+    <div class="footer-bottom">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;<i> 2024 by Cadillac</i></p>
+      <div class="footer-bottom-links">
+       <ul>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="1384005.png" alt="" width="20" height="20">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="5969020.png" alt="" width="20" height="20">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="3670274.png" alt="" width="20" height="20">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <img src="3669688.png" alt="" width="20" height="20">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
